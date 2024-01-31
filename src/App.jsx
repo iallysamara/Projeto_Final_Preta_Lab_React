@@ -2,7 +2,7 @@ function App() {
     
   return (
           <h1>
-              Olá Mundo!
+              Projeto Final PretaLab 2024 - Ially Silva
           </h1>
   
   )
