@@ -1,0 +1,28 @@
+body{
+    background-color: #FFFACD;
+}
+
+h1{
+    color: #FF7F50;
+}
+
+p{
+    padding: 10px;
+}
+
+:root{
+    --background-color: #FFFACD;
+    --primary-color: #D17C64; /* #808080 */
+    --text-color: #FF7F50;
+    --background-section: #FFFACD;
+    --text-sobre: #3c0936;   
+    --font-size-large: 24px;
+    --font-size-medium: 18px;
+    --font-size-small: 14px; 
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+  }

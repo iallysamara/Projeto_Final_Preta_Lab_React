@@ -1,0 +1,30 @@
+.menu {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 15px ;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .menuItem {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: var(--font-size-large);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    margin-right: 40px;
+    cursor: pointer;
+    display: inline-block;
+  
+  }
+  
+  .menuItem:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+  }

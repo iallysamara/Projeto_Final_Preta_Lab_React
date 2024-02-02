@@ -1,9 +1,16 @@
+import Menu from "./components/Menu/Menu.jsx";
+import Home from "./pages/Home/Home.jsx";
+import { Route, Routes } from "react-router-dom";
+
 function App() {
     
   return (
-          <h1>
-              Projeto Final PretaLab 2024 - Ially Silva
-          </h1>
+    <div>
+      <Menu />
+      <Routes>
+        <Route path="/" element={<Home /> }/>
+      </Routes>
+</div>
   
   )
 }
