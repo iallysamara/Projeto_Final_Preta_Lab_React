@@ -15,10 +15,11 @@ p{
     --primary-color: #D17C64; /* #808080 */
     --text-color: #FF7F50;
     --background-section: #FFFACD;
-    --text-sobre: #3c0936;   
+    --text-sobre: #3c0936;
+    --text-rodape: #F8F8FF; 
     --font-size-large: 24px;
     --font-size-medium: 18px;
-    --font-size-small: 14px; 
+    --font-size-small: 14px;
 }
 
 * {
