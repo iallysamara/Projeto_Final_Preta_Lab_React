@@ -1,8 +1,6 @@
 .menu {
     display: flex;
-    text-align: center;
     justify-content: center;
-    align-items: center;
     list-style: none;
     padding: 15px ;
     color: var(--text-color);
