@@ -17,9 +17,13 @@ const Sobre = () => {
               Sou uma mulher em busca de sua melhor versão, buscando sempre aprender/ensinar, realizar e vencer os desafios dessa vida e incentivar outras pessoas.
               Atuo na área de dados desde 2017, que foi quando eu ingressei na área de TI profissionalmente. Essa foi a área onde eu mais me identifiquei,
               tratar e transformar dados em informação é uma das minhas maiores paixões e me vejo trabalhando nessa área a longo prazo.
+              <br />
               Na formação básica da Pretalab eu pude ter um intensivão na área de Front-end, programando em HTML, CSS, Java Script e React. Esse curso me permitiu ter uma perspectiva de
               um futuro com mais oportunidades, é uma área que desejo me dedicar.
-              Apesar de não ter concluído o curso de ADS, estou sempre me atualizando, fazendo cursos e bootecamps para aprender novas tecnologias, aperfeiçoar o que já domino e me apronfudar na parte técnica.
+              <br/>
+              Embora não tenha concluído o curso de Análise e Desenvolvimento de Sistemas (ADS), mantenho-me constantemente atualizada, participando de cursos e bootcamps para 
+              adquirir novos conhecimentos, aprimorar minhas habilidades existentes e aprofundar meu domínio técnico. Estou comprometida com a minha evolução profissional e 
+              determinada a alcançar meus objetivos na área de tecnologia
           </p>
       </div>
     </>
