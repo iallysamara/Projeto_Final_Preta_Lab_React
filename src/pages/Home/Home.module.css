@@ -43,7 +43,8 @@
 .cards {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  
 }
 
 .cardsContainer {
@@ -58,7 +59,7 @@
 }
 
 .card {
-  margin: 15rem;
+  margin: 100px;
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
