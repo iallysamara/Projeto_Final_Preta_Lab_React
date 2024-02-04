@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var( --background-section);
+  background: #FFDEAD; ;
 }
 
 .subtitulo p {
@@ -28,7 +28,6 @@
 
 .beneficios {
   width: 100%;
-  background-color: #FFDEAD; 
 }
  
 .content {
@@ -37,18 +36,17 @@
   padding-bottom: 2rem;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .cards {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 .cardsContainer {
   width: 70%;
+  
 }
 
 .tituloCards {
@@ -60,19 +58,17 @@
 
 .card {
   margin: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 50px; 
+  height: 600px;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .imagemCard {
-  margin: 0rem;
-  width: 200%;
-  height: 100%;
-  
+  max-width: 100%;
+  height: auto;
 }
 
 .subtituloCard {
@@ -83,10 +79,12 @@
  
 .textos {
   margin: 2rem;
+  text-align: center;
 }
 
 .texto {
   width: 20rem;
+  margin: 0 auto;
 }
 
 @media(max-width: 10000px) {

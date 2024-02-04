@@ -43,7 +43,7 @@ const Home = () => {
               com o objetivo de contribuir significativamente para projetos colaborativos e também para desenvolver projetos 
               pessoais. Compreender o desenvolvimento front-end não apenas amplia meu conjunto de habilidades, mas também me 
               capacita a criar experiências de usuário envolventes e funcionais. A habilidade de trabalhar tanto no front-end 
-              quanto no back-end me tornará mais versátil e valioso como profissional de tecnologia</p>
+              quanto no back-end me tornará mais versátil e valioso como profissional de tecnologia.</p>
             </div>
           </div>
         </div>
