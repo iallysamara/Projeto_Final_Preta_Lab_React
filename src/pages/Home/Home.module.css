@@ -10,23 +10,6 @@
   height: 100%;
 }
 
-.h2 {
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
-  color: var(--primary-color);
-  padding: 50px;
-}
-
-.imagensMotivo {
-  width: 100%;
-}
-
-.motivoContainer{
-  width: 100%;
-  background-color: #FFDEAD; /* #FFFFE0 */
-}
-
 .subtitulo {
   padding: 1rem;
   font-size: 1.5rem;
@@ -42,14 +25,67 @@
 .subtitulo p {
   width: 60%;
 }
- 
 
+.beneficios {
+  width: 100%;
+  background-color: #FFDEAD; 
+}
+ 
+.content {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cardsContainer {
+  width: 70%;
+}
+
+.tituloCards {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.card {
+  margin: 15rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.imagemCard {
+  margin: 0rem;
+  width: 200%;
+  height: 100%;
+  
+}
+
+.subtituloCard {
+  font-size: 3rem;
+  color: var(--primary-color);
+  font-weight: ExtraLight 200;
+}
+ 
 .textos {
   margin: 2rem;
 }
 
 .texto {
-  width: 12rem;
+  width: 20rem;
 }
 
 @media(max-width: 10000px) {
@@ -66,4 +102,5 @@
     width: 100%;
     height: 60%;
   }
+  
 }
