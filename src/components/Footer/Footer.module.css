@@ -3,7 +3,7 @@
     text-align: center;
     color: var(--text-rodape);
     background: var(--primary-color);  
-    height: 8vh; /*8vh*/
+    height: 8vh;
     margin-top: 100px;
     width: 100%;
     display: flex;

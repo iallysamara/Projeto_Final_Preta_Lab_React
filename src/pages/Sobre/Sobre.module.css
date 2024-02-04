@@ -1,0 +1,65 @@
+.header {
+    text-align: center;
+    color: var(--text-color);
+    background: var(--primary-color);
+  }
+
+  .headerImg {
+    width: 400px;
+    height: 400px;
+    margin-top: 70px;
+  }
+  
+  .containerPrincipalSobre{
+    background-color: var(--primary-color);
+  }
+
+  .containerSobre {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    height: 400px;
+  }
+  
+  .nomeCompleto {
+    font-size: 36px;
+    color: var(--text-rodape);
+    font-weight: 700;
+  }
+  
+  .profissao {
+    font-size: 25px;
+    color: var(--text-sobre);
+    font-weight: 600;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sobreMim{
+    font-size: 20px;
+    color: var(--text-rodape);
+    height: 45px;
+  }
+  
+  .containerSobre iframe {
+    width: 560px;
+    height: 315px; 
+  }
+  
+  .containerSobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  
+  @media(max-width: 765px) {
+  .containerSobre {
+      flex-direction: column;
+    }
+  }
