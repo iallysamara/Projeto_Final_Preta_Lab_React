@@ -5,8 +5,7 @@
   }
 
   .headerImg {
-    width: 400px;
-    height: 400px;
+    width: 500px;
     margin-top: 70px;
   }
   
@@ -17,8 +16,10 @@
   .containerSobre {
     background-color: var(--primary-color);
     flex-direction: column;
-    padding: 15px;
-    height: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .nomeCompleto {
@@ -39,7 +40,7 @@
   .sobreMim{
     font-size: 20px;
     color: var(--text-rodape);
-    height: 45px;
+    height: auto;
   }
   
   .containerSobre iframe {
@@ -53,10 +54,5 @@
     align-items: center;
     padding: 2rem;
   }
+
   
-  
-  @media(max-width: 765px) {
-  .containerSobre {
-      flex-direction: column;
-    }
-  }

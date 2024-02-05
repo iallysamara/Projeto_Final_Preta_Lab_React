@@ -15,6 +15,7 @@ const Sobre = () => {
           <h2 className={styles.profissao}>Engenheira de Dados</h2>
           <p className={styles.sobreMim}>
               Sou uma mulher em busca de sua melhor versão, buscando sempre aprender/ensinar, realizar e vencer os desafios dessa vida e incentivar outras pessoas.
+              <br />
               Atuo na área de dados desde 2017, que foi quando eu ingressei na área de TI profissionalmente. Essa foi a área onde eu mais me identifiquei,
               tratar e transformar dados em informação é uma das minhas maiores paixões e me vejo trabalhando nessa área a longo prazo.
               <br />
