@@ -1,0 +1,17 @@
+.header {
+    text-align: center;
+    color: var(--text-rodape);
+    background: var(--primary-color);
+  }
+
+  .header h1 {
+    padding-top: 8rem;
+    font-size: 50px;
+    color: var(--text-rodape);
+  }
+  
+  .header img {
+    width: 100%;
+    margin-top: -200px;
+    margin-bottom: -200px;
+  }
