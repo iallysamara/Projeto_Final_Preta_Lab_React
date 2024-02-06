@@ -38,7 +38,7 @@ const Contato = () => {
                 <input type="text" placeholder="Digite o seu nome" value={nome} onChange={aoPreencherNome} />
                 <input type="email" placeholder="Digite o seu email" value={email} onChange={aoPreencherEmail} />
                 <textarea placeholder="Digite uma mensagem" value={mensagem} onChange={aoPreencherMensagem}></textarea>
-                <button onClick={aoClicaBotao}>Enviar mensagem</button>
+                <button className={styles.button} onClick={aoClicaBotao}>Enviar mensagem</button>
             </div>
         </>
     )

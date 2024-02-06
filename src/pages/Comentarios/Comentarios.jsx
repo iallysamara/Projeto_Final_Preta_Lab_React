@@ -28,7 +28,7 @@ const Comentarios = () => {
           onChange={aoDigitarComentario}
           placeholder="Digite aqui..."
         />
-        <button onClick={aoClicarBotao}>+</button>
+        <button className={styles.button} onClick={aoClicarBotao}>+</button>
       </div>
     </>
   );

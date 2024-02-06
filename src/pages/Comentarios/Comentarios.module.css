@@ -38,7 +38,14 @@
     margin-bottom: 100px;
     border-radius: 10px;
     background-color: var(--primary-color);
+    color: var(--text-rodape);
+    font-size: 20px;
   }
+
+  .button:hover {
+    background-color: var(--primary-color);
+    color: black;
+}
 
   
   @media(max-width: 10000px) {
