@@ -21,9 +21,9 @@ const ApiGatos = () => {
             </h1>
         </div>
         <div className={styles.gatoCards}>
-        {gatoImagens.map(gato => (
+            {gatoImagens.map(gato => (
             <div key={gato.id} className={styles.card}>
-            <img src={gato.url} alt="Gato" />
+                <img src={gato.url} alt="Gato" />
             </div>
         ))}
         </div>
