@@ -10,9 +10,6 @@ const Comentarios = () => {
   };
 
   const handleClick = () => {
-    // Aqui você pode fazer algo com o novoComentario, como enviar para o servidor
-    console.log('Novo comentário:', novoComentario);
-    // Limpa o campo de comentário
     setNovoComentario('');
   };
 
