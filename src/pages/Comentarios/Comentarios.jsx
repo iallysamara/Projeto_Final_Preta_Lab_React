@@ -5,11 +5,11 @@ import Comentario from '../../assets/Comentario.png';
 const Comentarios = () => {
   const [novoComentario, setNovoComentario] = useState('');
 
-  const handleChange = (event) => {
+  const aoDigitarComentario = (event) => {
     setNovoComentario(event.target.value);
   };
 
-  const handleClick = () => {
+  const aoClicarBotao = () => {
     setNovoComentario('');
   };
 
@@ -25,10 +25,10 @@ const Comentarios = () => {
         <input
           type="text"
           value={novoComentario}
-          onChange={handleChange}
+          onChange={aoDigitarComentario}
           placeholder="Digite aqui..."
         />
-        <button onClick={handleClick}>+</button>
+        <button onClick={aoClicarBotao}>+</button>
       </div>
     </>
   );
