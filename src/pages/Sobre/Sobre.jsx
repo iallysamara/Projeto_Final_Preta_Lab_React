@@ -27,6 +27,10 @@ const Sobre = () => {
               determinada a alcançar meus objetivos na área de tecnologia
           </p>
       </div>
+
+      <div className={styles.containerAprendizado}>
+        <h2 className={styles.aprendizado}> Meu aprendizado no curso de Formação Básica da Pretalab </h2>
+      </div>
     </>
   )
 }

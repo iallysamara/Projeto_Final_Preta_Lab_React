@@ -1,6 +1,5 @@
 import styles from './Footer.module.css';
 import '@fortawesome/fontawesome-free/css/all.css';
-
 function Footer() {
   return (
     <footer className={styles.rodape}>
@@ -26,5 +25,4 @@ function Footer() {
     </footer>
   );
 }
-
 export default Footer;

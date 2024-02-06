@@ -26,6 +26,11 @@ const Menu = () => {
             Contato
           </Link>
         </li>
+        <li>
+          <Link className={styles.menuItem} to="/apigatos">
+            Gatinhos
+          </Link>
+        </li>
       </ul>
     </nav>
   );

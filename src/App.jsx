@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home.jsx";
 import Contato from "./pages/Contato/Contato.jsx";
 import Comentarios from "./pages/Comentarios/Comentarios.jsx";
 import Sobre from "./pages/Sobre/Sobre.jsx";
+import ApiGatos from "./pages/ApiGatos/ApiGatos.jsx";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/sobre" element={<Sobre /> }/>
         <Route path="/comentarios" element={<Comentarios /> } />
         <Route path="/contato" element={<Contato /> } />
+        <Route path="/apigatos" element={<ApiGatos /> } />
       </Routes>
       <Footer />
 </div>

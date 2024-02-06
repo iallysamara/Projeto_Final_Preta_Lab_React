@@ -1,0 +1,39 @@
+.gatoCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  padding-top: 50px;
+  border: 1px solid var(--text-sobre);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px var(--text-sobre);
+  text-align: center;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.header{
+  text-align: center;
+  color: var(--text-rodape);
+  background: var(--primary-color);
+  width: auto;
+  height: 250px;
+}
+
+.header h1{
+  padding-top: 8rem;
+  font-size: 50px;
+  color: var(--text-rodape);
+}

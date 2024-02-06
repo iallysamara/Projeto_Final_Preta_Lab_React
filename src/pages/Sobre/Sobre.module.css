@@ -55,4 +55,19 @@
     padding: 2rem;
   }
 
-  
+  .containerAprendizado {
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aprendizado {
+    font-size: 25px;
+    color: var(--text-sobre);
+    font-weight: 600;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }

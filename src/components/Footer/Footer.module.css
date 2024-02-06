@@ -1,46 +1,40 @@
 .rodape {
-    font-size: 1rem;
-    text-align: center;
-    color: var(--text-rodape);
-    background: var(--primary-color);  
-    height: auto;
-    margin-top: auto;  /*tenho que ver como fazer para não precisar usar esse comando*/
-    width: 100;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-.container-rodape{
-    margin-left: 60px;
-}
-
-.listaRodape {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    list-style-type: none;
-}
-
-
-.itemRodape {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--text-rodape);
+  background: var(--primary-color);  
+  height: auto;
+  margin-top: auto;  /*tenho que ver como fazer para não precisar usar esse comando*/
+  width: 100;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+.container-rodape{
+  margin-left: 60px;
+}
+.listaRodape {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
   margin-bottom: 10px;
+  list-style-type: none;
 }
 
+.itemRodape {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
 .itemRodape a {
-  margin-left: 10px;
-  color: var(--text-rodape);
-  text-decoration: none;
+margin-left: 10px;
+color: var(--text-rodape);
+text-decoration: none;
 }
-
 .textoRodape {
-  margin-top: 20px;
+margin-top: 20px;
 }
-
 .itemRodape a:hover {
-  background-color: var(--primary-color);
-  color: black;
+background-color: var(--primary-color);
+color: black;
 }
