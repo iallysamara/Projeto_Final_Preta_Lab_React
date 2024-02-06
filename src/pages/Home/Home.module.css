@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #FFDEAD; ;
+  background: #FFDEAD;
 }
 
 .subtitulo p {
@@ -33,7 +33,7 @@
 .content {
   width: 100%;
   padding-top: 50px;
-  padding-bottom: 2rem;
+  padding-bottom: 10rem;
   display: flex;
   align-items: center;
 }
@@ -45,8 +45,7 @@
 }
 
 .cardsContainer {
-  width: 70%;
-  
+  width: 70%; 
 }
 
 .tituloCards {
@@ -84,7 +83,6 @@
 
 .texto {
   width: 20rem;
-  margin: 0 auto;
 }
 
 @media(max-width: 10000px) {
