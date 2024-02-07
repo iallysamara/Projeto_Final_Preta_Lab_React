@@ -30,7 +30,7 @@ const Sobre = () => {
       </div>
 
       <div className={styles.containerAprendizado}>
-        <h2 className={styles.aprendizado}> Meu aprendizado no curso de Formação Básica da Pretalab </h2>
+        <h2 className={styles.aprendizado}> Meu aprendizado na Formação Básica da Pretalab </h2>
         <img className={styles.aprendizadoImg} src={Banner_Meu_Aprendizado} alt="Banner com a trilha de aprendizado no curso da PretaLab" />
       </div>
     </>
