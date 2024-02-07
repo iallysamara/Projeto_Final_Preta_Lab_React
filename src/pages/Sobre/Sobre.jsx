@@ -1,5 +1,6 @@
-import Foto_perfil_Ially_Silva from '../../assets/Foto_perfil_Ially_Silva.png'
-import styles from './Sobre.module.css'
+import Foto_perfil_Ially_Silva from '../../assets/Foto_perfil_Ially_Silva.png';
+import Banner_Meu_Aprendizado from '../../assets/Banner_Meu_Aprendizado.png'
+import styles from './Sobre.module.css';
 
 const Sobre = () => {
   return (
@@ -30,6 +31,7 @@ const Sobre = () => {
 
       <div className={styles.containerAprendizado}>
         <h2 className={styles.aprendizado}> Meu aprendizado no curso de Formação Básica da Pretalab </h2>
+        <img className={styles.aprendizadoImg} src={Banner_Meu_Aprendizado} alt="Banner com a trilha de aprendizado no curso da PretaLab" />
       </div>
     </>
   )
