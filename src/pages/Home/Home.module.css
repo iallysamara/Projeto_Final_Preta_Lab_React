@@ -10,6 +10,11 @@
   height: 100%;
 }
 
+.data{
+  text-align: center;
+  color: var(--text-color);
+}
+
 .subtitulo {
   padding: 1rem;
   font-size: 1.5rem;
@@ -26,7 +31,7 @@
   width: 60%;
 }
 
-.beneficios {
+.razao {
   width: 100%;
 }
  

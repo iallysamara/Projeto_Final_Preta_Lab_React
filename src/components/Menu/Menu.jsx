@@ -31,6 +31,16 @@ const Menu = () => {
             Gatinhos
           </Link>
         </li>
+        <li>
+          <Link className={styles.menuItem} to="/calculadora">
+            Calculadora
+          </Link>
+        </li>
+        <li>
+          <Link className={styles.menuItem} to="/contador">
+            Contador
+          </Link>
+        </li>
       </ul>
     </nav>
   );

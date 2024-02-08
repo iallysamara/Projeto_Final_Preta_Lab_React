@@ -4,8 +4,10 @@ import Home from "./pages/Home/Home.jsx";
 import Contato from "./pages/Contato/Contato.jsx";
 import Comentarios from "./pages/Comentarios/Comentarios.jsx";
 import Sobre from "./pages/Sobre/Sobre.jsx";
+import Contador from "./pages/Contador/Contador.jsx";
 import ApiGatos from "./pages/ApiGatos/ApiGatos.jsx";
 import { Route, Routes } from "react-router-dom";
+import Calculadora from "./pages/Calculadora/Calculadora.jsx";
 
 function App() {
     
@@ -18,6 +20,8 @@ function App() {
         <Route path="/comentarios" element={<Comentarios /> } />
         <Route path="/contato" element={<Contato /> } />
         <Route path="/apigatos" element={<ApiGatos /> } />
+        <Route path="/calculadora" element={<Calculadora /> } />
+        <Route path="/contador" element={<Contador /> } />
       </Routes>
       <Footer />
 </div>

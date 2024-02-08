@@ -31,7 +31,7 @@ const Contato = () => {
                 <h1>
                     Entre em contato
                 </h1>
-                <img src={Woman_cell} alt="Mulher no celular" />
+                <img src={Woman_cell} alt="Mulher negra com celular na mão olhando para a tela" />
             </div>
 
             <div className={styles.inputsContainer}>
