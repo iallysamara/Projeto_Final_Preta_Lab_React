@@ -1,4 +1,4 @@
-import styles from './Storytelling.module.css';
+import styles from './StoryTelling.module.css';
 import storytelling from '../../assets/storytelling.jpg';
 
 const Storytelling = () => {
