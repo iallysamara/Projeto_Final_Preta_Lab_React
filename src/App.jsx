@@ -8,6 +8,7 @@ import Contador from "./pages/Contador/Contador.jsx";
 import ApiGatos from "./pages/ApiGatos/ApiGatos.jsx";
 import { Route, Routes } from "react-router-dom";
 import Calculadora from "./pages/Calculadora/Calculadora.jsx";
+import Storytelling from "./pages/StoryTelling/StoryTelling.jsx";
 
 function App() {
     
@@ -22,6 +23,7 @@ function App() {
         <Route path="/apigatos" element={<ApiGatos /> } />
         <Route path="/calculadora" element={<Calculadora /> } />
         <Route path="/contador" element={<Contador /> } />
+        <Route path="/storytelling" element={<Storytelling /> } />
       </Routes>
       <Footer />
 </div>

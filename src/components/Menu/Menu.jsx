@@ -41,6 +41,11 @@ const Menu = () => {
             Contador
           </Link>
         </li>
+        <li>
+          <Link className={styles.menuItem} to="/storytelling">
+            Storytelling
+          </Link>
+        </li>
       </ul>
     </nav>
   );
