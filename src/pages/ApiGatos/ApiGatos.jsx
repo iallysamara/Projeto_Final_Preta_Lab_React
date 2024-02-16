@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import styles from './ApiGatos.module.css';
+import loadingGif from '../../assets/loading.gif';
 
 const ApiGatos = () => {
     const [gatoImagens, setgatoImagens] = useState([]);
@@ -27,7 +28,8 @@ const ApiGatos = () => {
         </div>
         {isLoading ? (
             <div className={styles.loading}>
-                Carregando imagens de gatinhos...
+                <p>Carregando imagens de gatinhos...</p>
+                <img className={styles.img} src={loadingGif} alt="Carregando..." />   {/*Carregando imagens de gatinhos... */}
             </div>
         ) : (
             <div className={styles.gatoCards}>
