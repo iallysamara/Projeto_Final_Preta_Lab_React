@@ -37,3 +37,12 @@
   font-size: 50px;
   color: var(--text-rodape);
 }
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 50px;
+  color: var(--primary-color);
+}
